@@ -42,6 +42,7 @@ class NotificationActivity : AppCompatActivity() {
         btn_push_advertise.setOnClickListener {
             sendAdvertiseMsg()
         }
+
     }
 
     private fun sendAdvertiseMsg() {
